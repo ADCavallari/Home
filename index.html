@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AD Cavallari</title>
+  <link rel="icon" href="src/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header class="hero">
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <img src="src/logo2.png" alt="AD Cavallari">
+            <span>AD CAVALLARI</span>
+          </div>
+          
+          <button class="menu-toggle" id="mobile-toggle" aria-label="Abrir menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+  
+          <nav class="desktop-nav">
+            <ul class="nav-list">
+              <li><a href="#midias" class="btn">Redes Sociais</a></li>
+              <li><a href="#agenda" class="btn">Agenda Semanal</a></li>
+              <li><a href="#contact" class="btn">Contato</a></li>
+            </ul>
+          </nav>
+        </nav>
+      </div>
+    </div>
+  
+    <!-- Menu Mobile -->
+    <div class="mobile-overlay" id="mobile-overlay"></div>
+    
+    <div class="mobile-nav" id="mobile-nav">
+      <div class="mobile-header">
+        <div class="mobile-logo">
+          <img src="src/logo2.png" alt="AD Cavallari">
+          <span>AD CAVALLARI</span>
+        </div>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      
+      <ul class="mobile-list">
+        <li><a href="#midias" class="mobile-btn">Redes Sociais</a></li>
+        <li><a href="#agenda" class="mobile-btn">Agenda Semanal</a></li>
+        <li><a href="#contact" class="mobile-btn">Contato</a></li>
+      </ul>
+    </div>
+  
+    <div class="hero-content">
+      <h1>Assembléia de Deus de Marília</h1>
+      <h2>Jardim Cavallari</h2>
+      <p>Um lugar maravilhoso, com palavras abençoadas aos nossos corações</p>
+    </div>
+  </header>
+    
+    <!-- Redes Sociais Section -->
+    <section id="midias" class="social-media-section">
+      <div class="container">
+          <h2 class="section-title">Nossas Redes Sociais</h2>
+          <div class="grid social-media-grid">
+              <!-- Card 1 -->
+              <div class="card social-card">
+                  <img src="src/insta100.png" alt="Instagram">
+                  <h3>Instagram</h3>
+                  <p>Siga-nos para ver nossos últimos posts e stories</p>
+                  <a href="https://instagram.com/ad.cavallari/" target="_blank" class="btn">Siga-nos no Instagram</a>
+              </div>
+              
+              <!-- Card 2 -->
+              <div class="card social-card">
+                  <img src="src/face100.png" alt="Facebook">
+                  <h3>Facebook</h3>
+                  <p>Curta nossa página e fique por dentro das novidades</p>
+                  <a href="https://www.facebook.com/adcavallari" target="_blank" class="btn">Visite nossa página</a>
+              </div>
+              
+              <!-- Card 3 -->
+              <div class="card social-card">
+                  <img src="src/yt100.png" alt="YouTube">
+                  <h3>YouTube</h3>
+                  <p>Acesse nosso canal no YouTube e assista aos cultos e eventos ao vivo.</p>
+                  <a href="https://www.youtube.com/@ADCavallari" target="_blank" class="btn">Visite nosso canal</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+    <!-- Agenda Section -->
+    <section id="agenda" class="agenda-section">
+      <div class="container">
+        <h2>Agenda Semanal</h2>
+        <div class="agenda-box">
+          <div class="agenda-left">
+            <div class="day">
+              <h3>🗓️ Segunda-feira</h3>
+              <p>Culto no Lar às 20h</p>
+            </div>
+            <div class="day">
+              <h3>🗓️ Terça-feira</h3>
+              <p>Tarde da Benção às 15h</p>
+            </div>
+            <div class="day">
+              <h3>🗓️ 3° Terça-feira</h3>
+              <p>Cooperação Culto de Ensino (SEDE) às 19h30</p>
+            </div>
+            <div class="day">
+              <h3>🗓️ Quarta-feira</h3>
+              <p>Culto de Ensino às 19h30</p>
+            </div>
+            <div class="day">
+              <h3>🗓️ Sexta-feira</h3>
+              <p>Culto de Oração às 19h30</p>
+            </div>
+          </div>
+          <div class="agenda-divider"></div>
+          <div class="agenda-right">
+            <div class="day">
+              <h3>🗓️ 1° Sábado</h3>
+              <p>Santa Ceia às 19h</p>
+            </div>
+            <div class="day">
+              <h3>🗓️ 3° Sábado</h3>
+              <p>Culto de Jovens às 19h</p>
+            </div>
+            <div class="day">
+              <h3>🗓️ Domingo</h3>
+              <p>EBD - Escola Bíblica Dominical às 09h</p>
+            </div>
+            <div class="day">
+              <h3>🗓️ Domingo</h3>
+              <p>Culto da Família às 18h30</p>
+            </div>
+            <div class="day">
+              <h3>🗓️ 2° Domingo</h3>
+              <p>Culto de Missões às 18h30</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <br>
+            <div class="grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="icon">📞</span>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(14) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">✉️</span>
+                        <div>
+                            <h3> Email</h3>
+                            <p> ad.cavallri@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Av. Maria Fernandes Cavallari, 2399 - Marília, SP</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="branding">
+                <span class="icon">⛪</span>
+                <span>© 2024 Assembléia de Deus de Marília - Jardim Cavallari. Todos os direitos reservados.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
